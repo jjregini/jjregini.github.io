@@ -3,20 +3,136 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Profile</title>
+    <title>Final Project - Jonathan Regini</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../main.css">
 </head>
 <body>
-    <header>
-        Jonathan Regini | JNL 221 | <a href="../index.html">Home</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html" style="font-family: 'Playfair Display', serif; font-size: 1.5rem;">Jonathan Regini</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about/index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../work/index.html">Published Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../assignments/index.html">Assignments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="../final/index.html">Final Project</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-    <h1>Final Project</h1>
-    <p>Coming Soon.</p>
-</main>
+    <main class="container my-5">
+        <h1 class="mb-4">Connecticut's $7 Billion Sports Betting Market: Growth, Competition, and the Coming Decline?</h1>
+        
+        <!-- Hero Section: Text Box + Data Visualization -->
+        <div class="row mb-4" style="padding: 20px;">
+            <div class="col-md-6 mb-3">
+                <div class="p-3 border bg-light" style="height: 100%;">
+                    <div style="font-family: 'Old Standard TT', serif;">
+                        <p style="margin: 0 0 1rem 0;">
+                            <span style="font-size: 4rem; font-weight: bold; float: left; line-height: 0.8; margin-right: 8px; margin-top: 8px; font-family: 'Playfair Display', serif;">W</span>e have come a long way from 1992 when President George H.W. Bush outlawed sports betting nationwide with the "Professional and Amateur Sports Protection Act" (PASPA), aiming to prevent corruption in sports competitions and maintain the integrity of the game. 18 years later, Nevada became the first state to legalize online wagering in 2010, and eight years after that, New Jersey followed suit to become the first state to launch online sports betting following the federal ban's repeal in 2018. These two states paved the way for others like Connecticut, which legalized online gambling in October 2021.
+                        </p>
+                        
+                        <p>Since legalization, Connecticut's sports betting market has exploded, generating over $7 billion in total wagers through September 2025. The growth trajectory tells a classic story of market maturation: explosive initial growth of 43% from 2021-22 to 2022-23, followed by decelerating rates of 29% and 16% in subsequent years. The market peaked in 2024-25 at $2.18 billion—but early data from 2025-26 suggests the boom may be over, with first-quarter figures projecting a potential 12% decline to approximately $1.92 billion annually.</p>
+                        
+                        <p>But this massive market isn't evenly distributed—a duopoly dominates the landscape entirely. FanDuel and DraftKings have carved up Connecticut's sports betting market between them, leaving the CT Lottery Corporation struggling with just $60 million in revenue compared to the sportsbooks' combined $506 million in profit since October 2021. While both major operators remain firmly in the green, the question looms: has Connecticut's sports betting gold rush already reached its peak?</p>
+                        
+                        <p>The recent slowdown reflects a pattern seen across newly legalized gambling markets nationwide rapid adoption followed by saturation. Market saturation, increased competition from neighboring states, and stabilizing consumer spending patterns all point to a maturing industry. What remains to be seen is whether this represents a temporary plateau or the beginning of a sustained decline in Connecticut's $7 billion sports betting experiment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="p-3 border bg-light" style="height: 100%;">
+                    <h2>Total Money Wagered in Connecticut</h2>
+                    <iframe title="" aria-label="Donut Chart" id="datawrapper-chart-Unsjn" src="https://datawrapper.dwcdn.net/Unsjn/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="533" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Data Visualization #2 - Full Width -->
+        <div class="row mb-4" style="padding: 20px;">
+            <div class="col-12">
+                <div class="p-4 border bg-light">
+                    <h2>Connecticut's Sports Betting Duopoly</h2>
+                    <iframe title="" aria-label="Range Plot" id="datawrapper-chart-Nj54h" src="https://datawrapper.dwcdn.net/Nj54h/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="131" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Text Area - Full Width -->
+        <div class="row mb-4" style="padding: 20px;">
+            <div class="col-12">
+                <div class="p-4 border bg-light">
+                    <div style="font-family: 'Old Standard TT', serif;">
+                        <p>We always hear the old saying the house always wins. So that prompts us to a deeper more fundamental question: why do people keep betting when the house almost always wins? The answer lies in the neuroscience of gambling itself and its more complex than simply chasing wins.</p>
+                        
+                        <p>When I got the opportunity to sit in at Philosophy professor Jags Singh lecture on the psychology of games he explained that the brain's reward system releases dopamine, a "feel-good" neurotransmitter, when playing games. It doesn't have to involve winning, but just in response to the excitement, stress, and risk-taking involved in just the act of games and in our case gambling itself. This means that bettors are getting neurological rewards even before they know the outcome of their wager the mere act of placing a bet triggers the same brain chemistry associated with pleasure and addiction.</p>
+                        
+                        <p>When I spoke to Jags he explained why Connecticut's patron winnings data shows such a stark pattern. "Even when the players are losing money overall, they're still getting dopamine hits from the anticipation, the occasional wins and even the misses" He explained. "The brain doesn't differentiate between winning money and the thrill of almost winning both activate the same reward pathways."</p>
+                        
+                        <p>Connecticut's data reveals this pattern starkly. We can see the dramatic upswings and downswings but the wagers continue to rise each and every month. However this isn't irrational behavior it's neuroscience in action. The combination of intermittent wins and the dopamine released during the betting process itself creates what psychologists call "intermittent reinforcement," one of the most powerful mechanisms for sustaining behavior.</p>
+                        
+                        <p>Throughout my research I have found that the industry understands this better than most bettors do. They've essentially engineered an experience that triggers dopamine at multiple points. It starts when you place the bet then reaches an all time high when you're watching the game, when you almost win, and when you actually win. You're getting neurological rewards even when you're losing money.</p>
+                        
+                        <p>The data visualization in the bottom right is representing a consistent 10% "hold rate" for every $10 wagered, operators keep $1 and return $9. It's the perfect balance: enough wins to trigger dopamine and keep people betting, but a guaranteed mathematical edge that has generated over half a billion in profits in less than four years.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Two Charts Side-by-Side -->
+        <div class="row mb-4" style="padding: 20px;">
+            <div class="col-md-6 mb-3">
+                <div class="p-3 border bg-light" style="height: 100%;">
+                    <h3>Patron Winnings</h3>
+                    <iframe title="" aria-label="Line chart" id="datawrapper-chart-6lvz9" src="https://datawrapper.dwcdn.net/6lvz9/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="371" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <div class="p-3 border bg-light" style="height: 100%;">
+                    <h3>Sum Of Online Sports Wagering In Connecticut</h3>
+                    <iframe title="" aria-label="Column Chart" id="datawrapper-chart-H7GeT" src="https://datawrapper.dwcdn.net/H7GeT/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="386" data-external="1"></iframe><script type="text/javascript">window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}});</script>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion Section with Drop Cap - Full Width -->
+        <div class="row mb-4" style="padding: 20px;">
+            <div class="col-12">
+                <div class="p-4 border bg-light">
+                    <div style="font-family: 'Old Standard TT', serif;">
+                        <p style="margin: 0;">
+                            <span style="font-size: 4rem; font-weight: bold; float: left; line-height: 0.8; margin-right: 8px; margin-top: 8px; font-family: 'Playfair Display', serif;">I</span>
+                            <span style="font-variant: small-caps; font-weight: bold;">n conclusion,</span>  With over $7 billion wagered since October 2021 the numbers really don't lie: $506 million in operator profits, and a duopoly that has left the state lottery in the dust. But beneath these metrics lies a more troubling reality. Sports betting and gambling is an industry built on understanding of the human brain better than its customers do. As Professor Singh explained in his lecture the brain's reward system responds to the act of gambling itself, not just winning. This means even as Connecticut's market shows signs of decline with projections suggesting a 12% drop from peak levels the hooks remain as powerful as ever. Connecticut's sports betting rush may be cooling, but an uncomfortable truth remains: this industry isn't selling entertainment. It's selling addiction, one dopamine hit at a time.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <p>&copy; Jonathan Regini 2025</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
